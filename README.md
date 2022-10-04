@@ -36,7 +36,8 @@ To make the clusters stable, our algorithm is solving an optimization problem. I
 
 ### Determine the number of Clusters
 To decide which c is better for our algorithm, I used the elbow method. In this method, I plotted the loss function for different values of c and chose the c that the cost function doesn't change too much after that.
-For example, in the following plot I understood that after c=3 the cost dosn't change a lot. So clustered this data with 3 clusters.
+For example, in the following plot, I understood that after c=3 the cost doesn't change a lot. So clustered this data into 3 clusters.
+
 The elbow plot:
 
 [<img src="https://github.com/kian79/Implement-C-Means-Algorithm/blob/main/Images/elbow_data1.png">]([http://google.com.au/](https://github.com/kian79/Implement-C-Means-Algorithm/blob/main/Images/elbow_data1.png))
